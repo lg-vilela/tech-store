@@ -5,15 +5,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const colorOptions = {
     'Preto': {
-      img: 'imagem/fone_destaque.png',
+      img: 'img/fone_destaque.png',
       title: 'Fone de Ouvido Bluetooth - Preto'
     },
     'Branco': {
-      img: 'imagem/fone_destaque2.jpg',
+      img: 'img/fone_destaque2.jpg',
       title: 'Fone de Ouvido Bluetooth - Branco'
     },
     'Cinza': {
-      img: 'imagem/fone_destaque3.png',
+      img: 'img/fone_destaque3.png',
       title: 'Fone de Ouvido Bluetooth - Cinza'
     }
   };
@@ -40,4 +40,5 @@ document.addEventListener('DOMContentLoaded', function () {
       productTitle.textContent = colorOptions[selected].title;
     }
   });
+
 });
